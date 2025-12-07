@@ -27,6 +27,10 @@ async def announce(ctx, *, message):
 async def ping(ctx):
     await ctx.send('Pong!')
 
+@bot.command
+async def report(ctx, *, user)
+    await ctx.send('reporting user: {user} .')
+
 @bot.command()
 async def emergency(ctx):
     await ctx.send('🚨 **CODE RED** 🚨')
